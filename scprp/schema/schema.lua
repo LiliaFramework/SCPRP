@@ -17,7 +17,7 @@ SCHEMA.author = "Sample Schema Author"
 SCHEMA.desc = "A SCPRP Schema"
 
 lia.chat.register("mind", {
-	onChatAdd = function(speaker, text)
+	onChatAdd = function(_, text)
 		chat.AddText(Color(115, 115, 115), "**\""..text.."\"")
 	end,
 	onCanHear = 1,
