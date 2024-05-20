@@ -1,5 +1,5 @@
 --- Attributes of the SCP faction.
--- @faction SCP
+-- @factions SCP
 
 --- A list of the current fields in the faction.
 -- @realm shared
