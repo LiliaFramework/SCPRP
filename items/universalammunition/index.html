@@ -1,0 +1,258 @@
+
+
+<html>
+	<head>
+		<title>UniversalAmmunition - SCP Schema Documentation</title>
+
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="UniversalAmmunition - SCP Schema Documentation" />
+		<meta property="og:site_name" content="Lilia Documentation" />
+
+			<meta property="og:description" content="Structure of UniversalAmmunition Item." />
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
+		<link rel="stylesheet" href="../../ldoc.css" />
+		<link rel="stylesheet" href="../../highlight.css" />
+	</head>
+
+	<body>
+		<main>
+
+<nav>
+	<header>
+			<h1><a href="../../">Lilia Documentation</a></h1>
+		<input id="search" type="search" autocomplete="off" placeholder="Search..." />
+	</header>
+
+	<section>
+				<details class="category" open>
+					<summary>
+						<h2>Items</h2>
+					</summary>
+
+					<ul>
+							<li>
+									<details open>
+									<summary><a href="../../items/universalammunition/">UniversalAmmunition</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+					</ul>
+				</details>
+				<details class="category" open>
+					<summary>
+						<h2>Factions</h2>
+					</summary>
+
+					<ul>
+							<li>
+									<details >
+									<summary><a href="../../factions/custom/">Custom</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../factions/default/">Default</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+					</ul>
+				</details>
+				<details class="category" open>
+					<summary>
+						<h2>Configurations</h2>
+					</summary>
+
+					<ul>
+							<li>
+									<details >
+									<summary><a href="../../configurations/lilia/">Lilia</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../configurations/schema/">Schema</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+					</ul>
+				</details>
+	</section>
+</nav>
+
+			<article>
+					<div class="wrapper">
+						<header class="module">
+	<h1>UniversalAmmunition</h1>
+	<h2>Structure of UniversalAmmunition Item.</h2>
+</header>
+
+<p>
+
+</p>
+
+	<h1 class="title">Tables</h1>
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="Configurations">
+					<h1><span class="realm shared"></span></span>Configurations</h1>
+				</a>
+
+					<p>This table defines the fields of the universal ammo item.</p>
+			</header>
+
+
+					<h3>Fields</h3>
+
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">name</span>
+
+
+
+								<p> The name of the item | <strong>string</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">desc</span>
+
+
+
+								<p> The description of the item | <strong>string</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">model</span>
+
+
+
+								<p> The model of the item | <strong>string</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">width</span>
+
+
+
+								<p> The width of the item in inventory | <strong>number</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">height</span>
+
+
+
+								<p> The height of the item in inventory | <strong>number</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">health</span>
+
+
+
+								<p> The amount of health the item restores | <strong>number</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">ammoAmount</span>
+
+
+
+								<p> The amount of ammunition in the box | <strong>number</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">category</span>
+
+
+
+								<p> The category of the item | <strong>string</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">blacklistedWeapons</span>
+
+
+
+								<p> The list of weapons that can't use this ammunition | <strong>table</strong></p>
+							</li>
+					</ul>
+
+
+
+		</section>
+
+					</div>
+			</article>
+		</main>
+
+		<script type="text/javascript" src="../../app.js"></script>
+		<script type="text/javascript" src="../../highlight.min.js"></script>
+		<script type="text/javascript">
+			var elements = document.querySelectorAll("pre code")
+
+			hljs.configure({
+				languages: ["lua"]
+			});
+
+			for (var i = 0; i < elements.length; i++)
+			{
+				hljs.highlightBlock(elements[i]);
+			}
+		</script>
+	</body>
+</html>
