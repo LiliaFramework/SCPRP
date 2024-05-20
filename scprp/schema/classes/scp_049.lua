@@ -12,7 +12,7 @@ function CLASS:OnSet(client)
 	local char = client:getChar()
 	char:setName("SCP-049, 'The Plague Doctor'")
 	char:setDesc(self.desc)
-	client:notify("You have been set as SCP-049.")
+	lia.chat.send(client, "mind", "You sense the presence of the peastilence within this realm.")
 end
 --------------------------------------------------------------------------------------------------------
 CLASS_SCP_049 = CLASS.index
