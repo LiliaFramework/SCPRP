@@ -15,3 +15,14 @@
 SCHEMA.name = "SCPRP"
 SCHEMA.author = "Sample Schema Author"
 SCHEMA.desc = "A SCPRP Schema"
+
+lia.chat.register("mind", {
+	onChatAdd = function(speaker, text)
+		chat.AddText(Color(115, 115, 115), "**\""..text.."\"")
+	end,
+	onCanHear = 1,
+	prefix = {"/mind"},
+	font = "liaChatFontItalics",
+	filter = "actions",
+	deadCanChat = true
+})
