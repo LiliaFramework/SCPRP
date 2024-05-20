@@ -9,3 +9,11 @@ lia.chat.register("mind", {
 	filter = "actions",
 	deadCanChat = true
 })
+
+function SCHEMA:PlayerHasClearance(client, level)
+	local character = client:getChar()
+	if character then
+		return character:HasClearance(level)
+	end
+	return false
+end
