@@ -4,6 +4,8 @@ CLASS.desc = "A humanoid figure that resembles a 15-16th century European Plague
 CLASS.isDefault = true
 CLASS.model = ""
 CLASS.health = 1000
+CLASS.walkSpeed = 150
+CLASS.runSpeed = 150
 CLASS.bloodcolor = DONT_BLEED
 CLASS.faction = FACTION_SCP
 --------------------------------------------------------------------------------------------------------
