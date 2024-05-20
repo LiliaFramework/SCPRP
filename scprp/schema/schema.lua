@@ -12,6 +12,7 @@
 -- @field name Controls the name of the schema | **string**
 -- @field author Specifies the author of the schema | **string**
 -- @field desc Defines the description of the schema | **string**
+-- @field SCPs A list of SCPs that are in the schema | **table**
 SCHEMA.name = "SCPRP"
 SCHEMA.author = "Sample Schema Author"
 SCHEMA.desc = "A SCPRP Schema"
