@@ -1,4 +1,4 @@
---- Attributes of the default faction.
+--- Attributes of the SCP faction.
 -- @faction SCP
 
 --- A list of the current fields in the faction.
