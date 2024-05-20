@@ -1,5 +1,5 @@
---- Attributes of the Foundation Recruit faction.
--- @factions Foundation Recruit
+--- Attributes of the FRecruit faction.
+-- @factions FRecruit
 
 --- A list of the current fields in the faction.
 -- @realm shared
