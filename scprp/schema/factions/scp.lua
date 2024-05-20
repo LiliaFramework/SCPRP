@@ -9,7 +9,8 @@
 -- @field color The color representing the faction | **Color**
 -- @field isDefault Whether the faction is set as default | **boolean**
 -- @field index The Unique ID of the faction | **number**
-
+-- @field GetDefaultName A function that returns the default name of the faction | **function**
+-- @field GetDefaultDesc A function that returns the default description of the faction | **function**
 FACTION.name = "SCP's"
 FACTION.desc = "Select your SCP."
 FACTION.color = Color(68,68,68)
