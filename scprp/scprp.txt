@@ -1,0 +1,6 @@
+"scprp"
+{
+	"base"		"lilia"
+	"title"		"SCPRP"
+	"author"	"Leonheart"
+}

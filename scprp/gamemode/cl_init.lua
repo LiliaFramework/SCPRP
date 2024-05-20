@@ -1,0 +1,3 @@
+﻿
+DeriveGamemode("lilia")
+
