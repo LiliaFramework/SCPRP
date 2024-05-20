@@ -11,8 +11,8 @@ end
 
 function PLAYER:HasClearance(level)
 	local char = self:getChar()
-	
-	if char then return char:GetClearance() >= level end
-
+	if char then
+		return char:GetClearance() >= level
+	end
 	return false
 end
