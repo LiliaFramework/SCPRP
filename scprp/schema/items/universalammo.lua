@@ -1,5 +1,6 @@
 ﻿--- Structure of UniversalAmmunition Item.
 -- @items UniversalAmmunition
+
 --- This table defines the fields of the universal ammo item.
 -- @table Configurations
 -- @realm shared
