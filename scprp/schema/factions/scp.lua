@@ -4,8 +4,12 @@ FACTION.desc = "Select your SCP."
 FACTION.color = Color(68,68,68)
 FACTION.isDefault = true
 --------------------------------------------------------------------------------------------------------
-function FACTION:OnCharCreated(_, character)
-	character:setName("SCP" .. math.radom(11111, 99999))
+function FACTION:GetDefaultName(client)
+	return "SCP" .. math.radom(11111, 99999)
+end
+--------------------------------------------------------------------------------------------------------
+function FACTION:GetDefaultDesc(client, faction)
+	return "A Character that is used to play as an SCP."
 end
 --------------------------------------------------------------------------------------------------------
 FACTION_SCP = FACTION.index
