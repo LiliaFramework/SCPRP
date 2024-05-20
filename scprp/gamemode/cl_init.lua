@@ -1,3 +1,1 @@
-﻿
-DeriveGamemode("lilia")
-
+﻿DeriveGamemode("lilia")
