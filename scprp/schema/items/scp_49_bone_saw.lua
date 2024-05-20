@@ -10,7 +10,7 @@ ITEM.functions.use = {
 		local target = client:GetEyeTrace().Entity
 		if not (target:IsRagdoll() or IsValid(target)) then
 			client:notify("Target not valid! You must be looking at it!")
-			client:getChar():getInv():add("scp_49_bone_saw") -- Hacky way to prevent the item from being removed
+			client:getChar():getInv():add("scp_49_bone_saw")
 			return
 		end
 
@@ -20,7 +20,7 @@ ITEM.functions.use = {
 		function()
 			target:Remove()
 			client:notify("You have successfully cut up the corpse.")
-			client:getChar():getInv():add("scp_49_bone_saw") -- Hacky way to prevent the item from being removed
+			client:getChar():getInv():add("scp_49_bone_saw")
 		end)
 	end
 }

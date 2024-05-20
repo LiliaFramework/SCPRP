@@ -16,7 +16,6 @@ SCHEMA.name = "SCPRP"
 SCHEMA.author = "Sample Schema Author"
 SCHEMA.desc = "A SCPRP Schema"
 
---- A list containing the schema's SCPs.
 SCHEMA.SCPs = {
 	CLASS_SCP_049
 }
