@@ -2,7 +2,7 @@
 lia.command.add(
 	"sensepestilence",
 	{
-		onRun = function(client, arguments) 
+		onRun = function(client, _)
 			if not client:Team() == CLASS_SCP_049 then
 				client:notify("You are not SCP-049.")
 				return
