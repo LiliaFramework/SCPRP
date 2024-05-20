@@ -10,9 +10,9 @@ function CHAR:HasClearance(level)
 end
 
 function PLAYER:HasClearance(level)
-	local char = self:getChar()
-	if char then
-		return char:GetClearance() >= level
+	local character = self:getChar()
+	if character then
+		return character:GetClearance() >= level
 	end
 	return false
 end
