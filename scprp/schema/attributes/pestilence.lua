@@ -1,5 +1,5 @@
 
 ATTRIBUTE.name = "Pestilence"
-ATTRIBUTE.desc = "You are a carrier of the pestilence."
+ATTRIBUTE.desc = "A odd arua sorrounds you, only a select few can see it."
 ATTRIBUTE.noStartBonus = true
 ATTRIBUTE.NoF1Show = true
