@@ -1,6 +1,6 @@
-ITEM.name = "Medical Syringe" 
+ITEM.name = "Medical Syringe"
 ITEM.desc = "A small medical syringe, containing a viscous grey liquid."
-ITEM.model = "models/items/crossbowrounds.mdl" 
+ITEM.model = "models/items/crossbowrounds.mdl"
 
 ITEM.zombieModels = {
 	"models/Zombie/Poison.mdl",
@@ -18,7 +18,6 @@ ITEM.functions.use = {
             client:notify("Target not valid! You must be looking at it!")
             return
         end
-        
 		lia.chat.send(client, "me", "pulls out a syringe and injects " .. target:Name() .. " with a viscous grey liquid.")
 		lia.chat.send(target, "me", "starts to feel a bit woozy...")
 
