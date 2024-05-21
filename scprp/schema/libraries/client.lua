@@ -10,8 +10,7 @@ color_682[ "$pp_colour_mulr" ] = 5,
 color_682[ "$pp_colour_mulg" ] = 0,
 color_682[ "$pp_colour_mulb" ] = 0
 function SCHEMA:RenderScreenspaceEffects()
-	local client = LocalPlayer()
-	if client:getClass() == CLASS_SCP_682 then
+	if LocalPlayer():getClass() == CLASS_SCP_682 then
 		DrawColorModify(color_682)
 	end
 end
