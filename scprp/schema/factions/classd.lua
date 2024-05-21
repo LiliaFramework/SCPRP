@@ -16,9 +16,9 @@ FACTION.models = {
 	"models/player/cheddar/class_d/class_d_vance.mdl"
 }
 
-function FACTION:OnCharCreated(client, character)
+function FACTION:OnCharCreated(_, character)
 	local name = character:getName()
-	character:setName("D-" .. math.radom(1111, 9999) .. " " .. name) 
+	character:setName("D-" .. math.radom(1111, 9999) .. " " .. name)
 end
 
 FACTION_CLASSD = FACTION.index
