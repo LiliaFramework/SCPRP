@@ -1,3 +1,16 @@
+--- Attributes of the Foundation Researcher faction.
+-- @factions FResearch
+
+--- A list of the current fields in the faction.
+-- @realm shared
+-- @table Configurations
+-- @field name The name of the faction | **string**
+-- @field desc The description of the faction | **string**
+-- @field color The color representing the faction | **Color**
+-- @field isDefault Whether the faction is set as default | **boolean**
+-- @field models The models that the faction can use | **table**
+-- @field index The Unique ID of the faction | **number**
+
 FACTION.name = "Foundation Researcher Department"
 FACTION.desc = "Membsers of the SCP Foundation Research Department. They are tasked with researching and understanding the anomalous objects contained within the facility."
 FACTION.color = Color(51,146,43)
