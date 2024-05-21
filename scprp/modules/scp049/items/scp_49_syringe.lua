@@ -31,7 +31,7 @@ ITEM.functions.use = {
 
 				lia.chat.send(target, "me", "starts to cough up blood...")
 
-                if math.random(1,4) == 10 then
+                if math.random(1,4) == 1 then
 					lia.chat.send(target, "me", "starts to scratch at their skin... slowly turning pealing it off...")
 
 					local hp = math.random(50, 200)
