@@ -49,7 +49,7 @@ ITEM.functions.use = {
                         end
                     )
                     timer.Create(
-                        client:SteamID() .. "_049_infec_dead_" .. item.uniqueID,
+                        client:SteamID() .. "_049_infecting_dead_" .. item.uniqueID,
                         10,
                         1,
                         function()
