@@ -2,13 +2,13 @@
 
 <html>
 	<head>
-		<title>Schema - SCP Schema Documentation</title>
+		<title>FSecurity - SCP Schema Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Schema - SCP Schema Documentation" />
+		<meta property="og:title" content="FSecurity - SCP Schema Documentation" />
 		<meta property="og:site_name" content="Lilia Documentation" />
 
-			<meta property="og:description" content="Schema configuration options." />
+			<meta property="og:description" content="Attributes of the Foundation Security faction." />
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
 		<link rel="stylesheet" href="../../ldoc.css" />
@@ -103,7 +103,7 @@
 									</details>
 							</li>
 							<li>
-									<details >
+									<details open>
 									<summary><a href="../../factions/fsecurity/">FSecurity</a></summary>
 
 									<ul>
@@ -144,7 +144,7 @@
 									</details>
 							</li>
 							<li>
-									<details open>
+									<details >
 									<summary><a href="../../configurations/schema/">Schema</a></summary>
 
 									<ul>
@@ -162,15 +162,12 @@
 			<article>
 					<div class="wrapper">
 						<header class="module">
-	<h1>Schema</h1>
-	<h2>Schema configuration options.</h2>
+	<h1>FSecurity</h1>
+	<h2>Attributes of the Foundation Security faction.</h2>
 </header>
 
 <p>
 
-
-<pre><code>This is meant to define the Schema's default information.
-</code></pre>
 </p>
 
 	<h1 class="title">Tables</h1>
@@ -181,8 +178,7 @@
 					<h1><span class="realm shared"></span></span>Configurations</h1>
 				</a>
 
-					<p>A list of schema fields that define the gamemode you are making.
- These options are defined by the 'SCHEMA' table.</p>
+					<p>A list of the current fields in the faction.</p>
 			</header>
 
 
@@ -196,18 +192,7 @@
 
 
 
-								<p> Controls the name of the schema | <strong>string</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">author</span>
-
-
-
-								<p> Specifies the author of the schema | <strong>string</strong></p>
+								<p> The name of the faction | <strong>string</strong></p>
 							</li>
 					</ul>
 
@@ -218,18 +203,51 @@
 
 
 
-								<p> Defines the description of the schema | <strong>string</strong></p>
+								<p> The description of the faction | <strong>string</strong></p>
 							</li>
 					</ul>
 
 					<ul>
 
 							<li>
-								<span class="tag parameter">SCPs</span>
+								<span class="tag parameter">color</span>
 
 
 
-								<p> A list of SCPs that are in the schema | <strong>table</strong></p>
+								<p> The color representing the faction | <strong>Color</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">isDefault</span>
+
+
+
+								<p> Whether the faction is set as default | <strong>boolean</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">models</span>
+
+
+
+								<p> The models that the faction can use | <strong>table</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">index</span>
+
+
+
+								<p> The Unique ID of the faction | <strong>number</strong></p>
 							</li>
 					</ul>
 
