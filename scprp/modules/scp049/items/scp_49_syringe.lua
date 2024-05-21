@@ -19,7 +19,7 @@ ITEM.functions.use = {
             return
         end
 		lia.chat.send(client, "me", "pulls out a syringe and injects " .. target:Name() .. " with a viscous grey liquid.")
-		lia.chat.send(target, "me", "starts to feel a bit woozy...")
+		lia.chat.send(target, "mind", "You feel a sharp pain as and begin to feel weak...")
 
         timer.Create(
             client:SteamID() .. "_049_infecting_" .. item.uniqueID,
