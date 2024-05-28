@@ -1,5 +1,5 @@
 function SCHEMA:RenderScreenspaceEffects()
-	if LocalPlayer():getClass() == CLASS_SCP_682 then
+	if LocalPlayer():isClass(CLASS_SCP_682)  then
 		DrawColorModify({
 			[ "$pp_colour_addr" ] = 0,
 			[ "$pp_colour_addg" ] = 0,
