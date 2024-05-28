@@ -3,7 +3,8 @@ file = {
 }
 
 module_file = {
-	Character = "lilia/gamemode/libraries/meta/character.lua",
+	Character = "scprp/schema/meta/sh_character.lua",
+	Player = "scprp/schema/meta/sh_player.lua",
 }
 
 dir = "docs/html"
