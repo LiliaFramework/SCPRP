@@ -9,6 +9,7 @@ lia.chat.register("mind", {
 	deadCanChat = true
 })
 
+--[[ Redundant, you have the playerMeta for this
 function SCHEMA:PlayerHasClearance(client, level)
 	local character = client:getChar()
 	if character then
@@ -16,3 +17,4 @@ function SCHEMA:PlayerHasClearance(client, level)
 	end
 	return false
 end
+]]

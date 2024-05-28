@@ -2,6 +2,7 @@ function SCHEMA:PlayerSwitchFlashlight(_)
 	return true
 end
 
+--[[ Redundant, use lia.faction.getClasses(FACTION_SCP)
 function SCHEMA:getSCPClasses()
 	local classes = {}
 	for _, v in pairs(lia.class.classes) do
@@ -11,4 +12,4 @@ function SCHEMA:getSCPClasses()
 	end
 	return classes
 end
-
+]]
