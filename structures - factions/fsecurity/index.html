@@ -2,13 +2,13 @@
 
 <html>
 	<head>
-		<title>SCP-049 - SCP Schema Documentation</title>
+		<title>FSecurity - SCPRP Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="SCP-049 - SCP Schema Documentation" />
+		<meta property="og:title" content="FSecurity - SCPRP Documentation" />
 		<meta property="og:site_name" content="Lilia Documentation" />
 
-			<meta property="og:description" content="Attributes of the SCP-049 class." />
+			<meta property="og:description" content="Attributes of the Foundation Security faction." />
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
 		<link rel="stylesheet" href="../../ldoc.css" />
@@ -27,13 +27,13 @@
 	<section>
 				<details class="category" open>
 					<summary>
-						<h2>Items</h2>
+						<h2>Structures - Items</h2>
 					</summary>
 
 					<ul>
 							<li>
 									<details >
-									<summary><a href="../../items/universalammunition/">UniversalAmmunition</a></summary>
+									<summary><a href="../../structures - items/universalammunition/">UniversalAmmunition</a></summary>
 
 									<ul>
 
@@ -46,13 +46,57 @@
 				</details>
 				<details class="category" open>
 					<summary>
-						<h2>Classes</h2>
+						<h2>Structures - Factions</h2>
 					</summary>
 
 					<ul>
+							<li>
+									<details >
+									<summary><a href="../../structures - factions/classd/">ClassD</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../structures - factions/frecruit/">FRecruit</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../structures - factions/fresearch/">FResearch</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
 							<li>
 									<details open>
-									<summary><a href="../../classes/scp-049/">SCP-049</a></summary>
+									<summary><a href="../../structures - factions/fsecurity/">FSecurity</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../structures - factions/scp/">SCP</a></summary>
 
 									<ul>
 
@@ -65,57 +109,13 @@
 				</details>
 				<details class="category" open>
 					<summary>
-						<h2>Factions</h2>
+						<h2>Structures - Classes</h2>
 					</summary>
 
 					<ul>
 							<li>
 									<details >
-									<summary><a href="../../factions/classd/">ClassD</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-							<li>
-									<details >
-									<summary><a href="../../factions/frecruit/">FRecruit</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-							<li>
-									<details >
-									<summary><a href="../../factions/fresearch/">FResearch</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-							<li>
-									<details >
-									<summary><a href="../../factions/fsecurity/">FSecurity</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-							<li>
-									<details >
-									<summary><a href="../../factions/scp/">SCP</a></summary>
+									<summary><a href="../../structures - classes/scp-049/">SCP-049</a></summary>
 
 									<ul>
 
@@ -128,13 +128,13 @@
 				</details>
 				<details class="category" open>
 					<summary>
-						<h2>Configurations</h2>
+						<h2>Config - General</h2>
 					</summary>
 
 					<ul>
 							<li>
 									<details >
-									<summary><a href="../../configurations/lilia/">Lilia</a></summary>
+									<summary><a href="../../config - general/lilia/">Lilia</a></summary>
 
 									<ul>
 
@@ -145,7 +145,7 @@
 							</li>
 							<li>
 									<details >
-									<summary><a href="../../configurations/schema/">Schema</a></summary>
+									<summary><a href="../../config - general/schema/">Schema</a></summary>
 
 									<ul>
 
@@ -162,8 +162,8 @@
 			<article>
 					<div class="wrapper">
 						<header class="module">
-	<h1>SCP-049</h1>
-	<h2>Attributes of the SCP-049 class.</h2>
+	<h1>FSecurity</h1>
+	<h2>Attributes of the Foundation Security faction.</h2>
 </header>
 
 <p>
@@ -178,7 +178,7 @@
 					<h1><span class="realm shared"></span></span>Configurations</h1>
 				</a>
 
-					<p>A list of the current fields in the class.</p>
+					<p>A list of the current fields in the faction.</p>
 			</header>
 
 
@@ -192,7 +192,7 @@
 
 
 
-								<p> The name of the class | <strong>string</strong></p>
+								<p> The name of the faction | <strong>string</strong></p>
 							</li>
 					</ul>
 
@@ -203,7 +203,18 @@
 
 
 
-								<p> The description of the class | <strong>string</strong></p>
+								<p> The description of the faction | <strong>string</strong></p>
+							</li>
+					</ul>
+
+					<ul>
+
+							<li>
+								<span class="tag parameter">color</span>
+
+
+
+								<p> The color representing the faction | <strong>Color</strong></p>
 							</li>
 					</ul>
 
@@ -214,84 +225,18 @@
 
 
 
-								<p> Whether the class is set as default | <strong>boolean</strong></p>
+								<p> Whether the faction is set as default | <strong>boolean</strong></p>
 							</li>
 					</ul>
 
 					<ul>
 
 							<li>
-								<span class="tag parameter">model</span>
+								<span class="tag parameter">models</span>
 
 
 
-								<p> The model of the class | <strong>string</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">health</span>
-
-
-
-								<p> The health of the class | <strong>number</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">walkSpeed</span>
-
-
-
-								<p> The walking speed of the class | <strong>number</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">runSpeed</span>
-
-
-
-								<p> The running speed of the class | <strong>number</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">bloodcolor</span>
-
-
-
-								<p> The blood color of the class | <strong>number</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">faction</span>
-
-
-
-								<p> The faction of the class | <strong>number</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">OnSet</span>
-
-
-
-								<p> A function that is called when the class is set | <strong>function</strong></p>
+								<p> The models that the faction can use | <strong>table</strong></p>
 							</li>
 					</ul>
 
@@ -302,7 +247,7 @@
 
 
 
-								<p> The Unique ID of the class | <strong>number</strong></p>
+								<p> The Unique ID of the faction | <strong>number</strong></p>
 							</li>
 					</ul>
 
