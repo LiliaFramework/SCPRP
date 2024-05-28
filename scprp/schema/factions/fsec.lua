@@ -1,5 +1,5 @@
 --- Attributes of the Foundation Security faction.
--- @factions FSecurity
+-- @structurefactions FSecurity
 
 --- A list of the current fields in the faction.
 -- @realm shared

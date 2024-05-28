@@ -3,7 +3,7 @@ Lilia's configuration options.
 
 This is meant to override Lilia's configuration options.
 ]]
--- @configurations Lilia
+-- @configurationgeneral Lilia
 
 --- A list of available commands for use within the game.
 -- Each command is represented by a table with fields defining its functionality.
