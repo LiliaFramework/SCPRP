@@ -1,5 +1,5 @@
 file = {
-	"skeleton",
+	"scprp",
 }
 
 module_file = {
@@ -8,8 +8,8 @@ module_file = {
 }
 
 dir = "docs/html"
-project = "Skeleton"
-title = "Skeleton Documentation"
+project = "SCPRP"
+title = "SCPRP Documentation"
 no_space_before_args = true
 style = "docs/css"
 template = "docs/templates"
