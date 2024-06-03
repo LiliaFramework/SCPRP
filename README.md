@@ -1,4 +1,4 @@
-# Lilia Skeleton
+# SCP
  
 SCP schema for [Lilia](https://github.com/LiliaFramework/Lilia)
 
