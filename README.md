@@ -1,6 +1,8 @@
-# SCP
- 
-SCP schema for [Lilia](https://github.com/LiliaFramework/Lilia)
+<h1 align="center">Lilia - SCPRP Schema</h1>
+
+<p align="center">
+  <img src="https://i.imgur.com/yY3wT30.png" alt="Lilia Icon">
+</p>
 
 # Contents
 - SCP 0-49
