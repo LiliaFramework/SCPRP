@@ -9,7 +9,9 @@ SCP schema for [Lilia](https://github.com/LiliaFramework/Lilia)
 
 - Text Radios
   
-- Tying (Includes search functionality and custom animations)
+- Tying
+
+- Tying Search
 
 # Support
 
