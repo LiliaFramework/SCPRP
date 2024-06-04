@@ -28,9 +28,9 @@ CLASS.faction = FACTION_SCP
 
 function CLASS:OnSet(client)
 	client:Spawn()
-	local char = client:getChar()
-	char:setName("SCP-049, 'The Plague Doctor'")
-	char:setDesc(self.desc)
+	local character = client:getChar()
+	character:setName("SCP-049, 'The Plague Doctor'")
+	character:setDesc(self.desc)
 	lia.chat.send(client, "mind", "You sense the presence of the peastilence within this realm.")
 end
 

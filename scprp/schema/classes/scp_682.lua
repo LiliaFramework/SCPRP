@@ -10,9 +10,9 @@ CLASS.faction = FACTION_SCP
 
 function CLASS:OnSet(client)
 	client:Spawn()
-	local char = client:getChar()
-	char:setName("SCP-682, 'The Hard-To-Destroy Reptile'")
-	char:setDesc(self.desc)
+	local character = client:getChar()
+	character:setName("SCP-682, 'The Hard-To-Destroy Reptile'")
+	character:setDesc(self.desc)
 	lia.chat.send(client, "mind", "Your hatred for all life is overwhelming. You must destroy all life forms.")
 end
 
