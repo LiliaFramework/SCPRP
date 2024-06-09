@@ -1,5 +1,5 @@
 --- Attributes of the SCP-049 class.
--- @structureclasses SCP-049
+-- @classes SCP-049
 
 --- A list of the current fields in the class.
 -- @realm shared

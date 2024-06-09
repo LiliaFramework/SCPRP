@@ -1,5 +1,5 @@
 --- Attributes of the FRecruit faction.
--- @structurefactions FRecruit
+-- @factions FRecruit
 
 --- A list of the current fields in the faction.
 -- @realm shared
