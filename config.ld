@@ -26,7 +26,6 @@ pretty_topic_names = true -- strips extension from manual filenames, this does n
 kind_names = {
    module = "Libraries",
 }
-
 custom_tags = {
    {
       "realm",
@@ -37,6 +36,7 @@ custom_tags = {
       hidden = true
    }
 }
+
 
 custom_display_name_handler = function(item, default_handler)
    if item.type == "function" and item.module then
@@ -55,8 +55,8 @@ custom_display_name_handler = function(item, default_handler)
    return default_handler(item)
 end
 
-new_type("structurefactions", "Structures - Factions", true)
-new_type("structureclasses", "Structures - Classes", true)
+new_type("factions", "Factions", true)
+new_type("classes", "Classes", true)
 new_type("information", "Information", true)
 new_type("alibrary", "Libraries", true)
 new_type("ahooks", "Hooks", true)
