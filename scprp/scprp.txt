@@ -2,5 +2,6 @@
 {
 	"base"		"lilia"
 	"title"		"SCPRP"
-	"author"	"Leonheart"
+	"author"	"Samael"
+	"category"	"rp"
 }
