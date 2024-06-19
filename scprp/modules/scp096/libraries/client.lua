@@ -1,4 +1,4 @@
-function MODULE:StartCommand(client, cmd)
+﻿function MODULE:StartCommand(client, cmd)
     local weapon = client:GetActiveWeapon()
     if not IsValid(weapon) then return end
     if client:isSCP096() then

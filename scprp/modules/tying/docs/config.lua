@@ -1,6 +1,5 @@
---- Configuration for Protection Module.
+﻿--- Configuration for Protection Module.
 -- @configuration Temp
-
 --- This table defines the default settings for the Protection Module.
 -- @realm shared
 -- @table Configuration

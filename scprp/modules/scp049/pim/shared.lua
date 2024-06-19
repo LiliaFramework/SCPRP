@@ -1,4 +1,4 @@
-PIM:AddOption("Sense Pestilence", {
+﻿PIM:AddOption("Sense Pestilence", {
     runServer = false,
     shouldShow = function(client) if not client:isClass(CLASS_SCP_049) then return false end end,
     onRun = function(client, target)

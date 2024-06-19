@@ -1,4 +1,4 @@
-ITEM.name = "Bone Saw"
+﻿ITEM.name = "Bone Saw"
 ITEM.desc = "A small, rusty bone saw. It's covered in dried blood."
 ITEM.model = "models/props_junk/junk_hacksaw.mdl"
 ITEM.functions.use = {

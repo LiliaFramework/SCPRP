@@ -1,4 +1,4 @@
-local playerMeta = FindMetaTable("Player")
+﻿local playerMeta = FindMetaTable("Player")
 function playerMeta:HuntedBySCP096()
     return self:GetNWBool("spotted_096", false)
 end

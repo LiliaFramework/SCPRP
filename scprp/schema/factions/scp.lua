@@ -1,4 +1,4 @@
---- Attributes of the SCP faction.
+﻿--- Attributes of the SCP faction.
 -- @factions SCP
 
 --- A list of the current fields in the faction.
@@ -11,18 +11,16 @@
 -- @field index The Unique ID of the faction | **number**
 -- @field GetDefaultName A function that returns the default name of the faction | **function**
 -- @field GetDefaultDesc A function that returns the default description of the faction | **function**
-
 FACTION.name = "SCP's"
 FACTION.desc = "Select your SCP."
-FACTION.color = Color(68,68,68)
+FACTION.color = Color(68, 68, 68)
 FACTION.isDefault = true
-
 function FACTION:GetDefaultName(_)
-	return "SCP" .. math.radom(11111, 99999)
+    return "SCP" .. math.radom(11111, 99999)
 end
 
 function FACTION:GetDefaultDesc(_, _)
-	return "A Character that is used to play as an SCP."
+    return "A Character that is used to play as an SCP."
 end
 
 FACTION_SCP = FACTION.index

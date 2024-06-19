@@ -1,3 +1,3 @@
-function SCHEMA:PlayerSwitchFlashlight(_)
-	return true
+﻿function SCHEMA:PlayerSwitchFlashlight(_)
+    return true
 end

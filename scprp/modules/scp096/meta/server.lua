@@ -1,4 +1,4 @@
-local playerMeta = FindMetaTable("Player")
+﻿local playerMeta = FindMetaTable("Player")
 local WalkSpeed = lia.config.WalkSpeed
 local RunSpeed = lia.config.RunSpeed
 function playerMeta:ApplySpeed(amount, bool)

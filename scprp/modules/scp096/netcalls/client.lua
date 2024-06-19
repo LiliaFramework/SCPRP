@@ -1,4 +1,4 @@
-local blood_eff = {
+﻿local blood_eff = {
     ["$pp_colour_addr"] = 0,
     ["$pp_colour_addg"] = 0,
     ["$pp_colour_addb"] = 0,

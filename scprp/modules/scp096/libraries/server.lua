@@ -1,4 +1,4 @@
-local function PlayerIsLookingAtHead(client, target)
+﻿local function PlayerIsLookingAtHead(client, target)
     if not (IsValid(target) or IsValid(target:GetActiveWeapon())) then return end
     if target:isSCP096() then
         if not target:GetNWBool("freaking_out", false) then

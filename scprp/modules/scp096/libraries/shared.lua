@@ -1,4 +1,4 @@
-local cry_sound = Sound("scp096/crying.wav")
+﻿local cry_sound = Sound("scp096/crying.wav")
 local freak_sound = Sound("scp096/freak.wav")
 local scream_sound = Sound("scp096/scream.wav")
 sound.Add({

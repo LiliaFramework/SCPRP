@@ -1,4 +1,4 @@
-include("shared.lua")
+﻿include("shared.lua")
 local mat = CreateMaterial("mg_scp096_heartbeat", "UnlitGeneric", {
     ["$basetexture"] = "sprites/light_glow02",
     ["$ignorez"] = 1,

@@ -1,4 +1,4 @@
-SWEP.PrintName = "SCP-096"
+﻿SWEP.PrintName = "SCP-096"
 SWEP.ViewModelFOV = 56
 SWEP.ViewModel = Model("models/weapons/v_arms_scp096.mdl")
 SWEP.WorldModel = "models/gibs/hgibs.mdl"
