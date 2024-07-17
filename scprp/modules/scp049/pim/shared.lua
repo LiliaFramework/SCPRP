@@ -15,7 +15,7 @@ PIM:AddOption("Use a Medical Syringe", {
         local character = client:getChar()
         local inventory = character:getInv()
         local hasItem = inventory:hasItem("scp_49_bone_saw")
-        if not character:isClass(CLASS_SCP_049) then return false end
+        if not client:isClass(CLASS_SCP_049) then return false end
         return hasItem
     end,
     onRun = function(client, target)
