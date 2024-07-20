@@ -17,7 +17,7 @@ ITEM.functions.use = {
             return false
         end
 
-        if table.hasvalue(item.blacklistedWeapons, weapon:GetClass()) then
+        if table.HasValue(item.blacklistedWeapons, weapon:GetClass()) then
             client:PrintMessage(HUD_PRINTTALK, "This weapon may not be resupplied.")
             client:EmitSound("Player.DenyWeaponSelection")
             return false

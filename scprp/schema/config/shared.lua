@@ -41,6 +41,7 @@ This is meant to override Lilia's configuration options.
 -- @field AdminConsoleNetworkLogs Specifies if the logging system should replicate to admins' consoles | **boolean**
 -- @field TimeToEnterVehicle Time **[in seconds]** required to enter a vehicle | **integer**
 -- @field CarEntryDelayEnabled Determines if the car entry delay is applicable | **boolean**.
+-- @field ServerWorkshopID Determines the workshop collection for the server. This will enable a prompt asking you to download the collection. | **string**.
 -- @field Notify Contains notification sound and volume settings | **table**.
 -- @field Notify.Sound Notification sound file path | **string**.
 -- @field Notify.Volume Notification volume | **integer**
@@ -79,4 +80,5 @@ lia.config.MinDescLen = 16
 lia.config.AdminConsoleNetworkLogs = false
 lia.config.TimeToEnterVehicle = 1
 lia.config.CarEntryDelayEnabled = true
+lia.config.ServerWorkshopID = ""
 lia.config.Notify = {"garrysmod/content_downloaded.wav", 50, 250}
