@@ -2,13 +2,13 @@
 
 <html>
 	<head>
-		<title>Temp - SCPRP Documentation</title>
+		<title>Radio - SCPRP Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Temp - SCPRP Documentation" />
+		<meta property="og:title" content="Radio - SCPRP Documentation" />
 		<meta property="og:site_name" content="Lilia Documentation" />
 
-			<meta property="og:description" content="Configuration for Protection Module." />
+			<meta property="og:description" content="Configuration for Radio Module." />
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
 		<link rel="stylesheet" href="../../ldoc.css" />
@@ -27,13 +27,57 @@
 	<section>
 				<details class="category" open>
 					<summary>
-						<h2>Structures - Items</h2>
+						<h2>Factions</h2>
 					</summary>
 
 					<ul>
 							<li>
 									<details >
-									<summary><a href="../../structures - items/universalammunition/">UniversalAmmunition</a></summary>
+									<summary><a href="../../factions/classd/">ClassD</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../factions/frecruit/">FRecruit</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../factions/fresearch/">FResearch</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../factions/fsecurity/">FSecurity</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
+							<li>
+									<details >
+									<summary><a href="../../factions/scp/">SCP</a></summary>
 
 									<ul>
 
@@ -46,13 +90,13 @@
 				</details>
 				<details class="category" open>
 					<summary>
-						<h2>Structures - Factions</h2>
+						<h2>Classes</h2>
 					</summary>
 
 					<ul>
 							<li>
 									<details >
-									<summary><a href="../../structures - factions/classd/">ClassD</a></summary>
+									<summary><a href="../../classes/scp-049/">SCP-049</a></summary>
 
 									<ul>
 
@@ -63,7 +107,7 @@
 							</li>
 							<li>
 									<details >
-									<summary><a href="../../structures - factions/frecruit/">FRecruit</a></summary>
+									<summary><a href="../../classes/scp-096/">SCP-096</a></summary>
 
 									<ul>
 
@@ -74,29 +118,7 @@
 							</li>
 							<li>
 									<details >
-									<summary><a href="../../structures - factions/fresearch/">FResearch</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-							<li>
-									<details >
-									<summary><a href="../../structures - factions/fsecurity/">FSecurity</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-							<li>
-									<details >
-									<summary><a href="../../structures - factions/scp/">SCP</a></summary>
+									<summary><a href="../../classes/scp-682/">SCP-682</a></summary>
 
 									<ul>
 
@@ -109,13 +131,13 @@
 				</details>
 				<details class="category" open>
 					<summary>
-						<h2>Structures - Classes</h2>
+						<h2>Module Meta</h2>
 					</summary>
 
 					<ul>
 							<li>
 									<details >
-									<summary><a href="../../structures - classes/scp-049/">SCP-049</a></summary>
+									<summary><a href="../../module meta/scp096/">SCP096</a></summary>
 
 									<ul>
 
@@ -128,43 +150,24 @@
 				</details>
 				<details class="category" open>
 					<summary>
-						<h2>Config - Module</h2>
+						<h2>Configurations</h2>
 					</summary>
 
 					<ul>
+							<li>
+									<details >
+									<summary><a href="../../configurations/lilia/">Lilia</a></summary>
+
+									<ul>
+
+
+
+									</ul>
+									</details>
+							</li>
 							<li>
 									<details open>
-									<summary><a href="../../config - module/temp/">Temp</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-							<li>
-									<details open>
-									<summary><a href="../../config - module/temp/">Temp</a></summary>
-
-									<ul>
-
-
-
-									</ul>
-									</details>
-							</li>
-					</ul>
-				</details>
-				<details class="category" open>
-					<summary>
-						<h2>Config - General</h2>
-					</summary>
-
-					<ul>
-							<li>
-									<details >
-									<summary><a href="../../config - general/lilia/">Lilia</a></summary>
+									<summary><a href="../../configurations/radio/">Radio</a></summary>
 
 									<ul>
 
@@ -175,7 +178,7 @@
 							</li>
 							<li>
 									<details >
-									<summary><a href="../../config - general/schema/">Schema</a></summary>
+									<summary><a href="../../configurations/schema/">Schema</a></summary>
 
 									<ul>
 
@@ -192,8 +195,8 @@
 			<article>
 					<div class="wrapper">
 						<header class="module">
-	<h1>Temp</h1>
-	<h2>Configuration for Protection Module.</h2>
+	<h1>Radio</h1>
+	<h2>Configuration for Radio Module.</h2>
 </header>
 
 <p>
@@ -208,7 +211,7 @@
 					<h1><span class="realm shared"></span></span>Configuration</h1>
 				</a>
 
-					<p>This table defines the default settings for the Protection Module.</p>
+					<p>This table defines the default settings for the Radio Module.</p>
 			</header>
 
 
@@ -218,11 +221,11 @@
 					<ul>
 
 							<li>
-								<span class="tag parameter">TempValue</span>
+								<span class="tag parameter">RadioChatColor</span>
 
 
 
-								<p> TEMP VALUE | <strong>bool</strong></p>
+								<p> color The color used for radio chat messages</p>
 							</li>
 					</ul>
 
