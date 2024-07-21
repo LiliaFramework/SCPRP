@@ -33,7 +33,11 @@ custom_tags = {
     {
         "internal",
         hidden = true
-    }
+    },
+    {
+        "group",
+        hidden = true
+    },
 }
 
 custom_display_name_handler = function(item, default_handler)
