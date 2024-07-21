@@ -39,32 +39,26 @@ custom_tags = {
 
 custom_display_name_handler = function(item, default_handler)
     if item.type == "function" and item.module then
-        if item.module.type == "meta" then
-            return item.module.mod_name .. ":" .. default_handler(item)
-        elseif item.module.type == "modmeta" then
-            local group_parts = item.module.mod_name:match("^(.-)_(.-)$")
-            if group_parts then group_name = group_parts[2] end
-            if group_name == "Character" then
+        if item.module.type == "meta" or item.module.type == "modmeta" then
+            if item.module.group == "Character" then
                 return "characterMeta:" .. default_handler(item)
-            elseif group_name == "Entity" then
+            elseif item.module.group == "Entity" then
                 return "entityMeta:" .. default_handler(item)
-            elseif group_name == "Item" then
+            elseif item.module.group == "Item" then
                 return "itemMeta:" .. default_handler(item)
-            elseif group_name == "Player" then
+            elseif item.module.group == "Player" then
                 return "playerMeta:" .. default_handler(item)
-            elseif group_name == "Inventory" then
+            elseif item.module.group == "Inventory" then
                 return "inventoryMeta:" .. default_handler(item)
-            else
-                return "meta:" .. default_handler(item)
             end
+            return "meta:" .. default_handler(item)
         elseif item.module.type == "hooks" then
             if item.module.mod_name == "Class" then
                 return "CLASS:" .. default_handler(item)
             elseif item.module.mod_name == "Faction" then
                 return "FACTION:" .. default_handler(item)
-            else
-                return "MODULE:" .. default_handler(item)
             end
+            return "MODULE:" .. default_handler(item)
         end
     end
     return default_handler(item)
