@@ -1,7 +1,7 @@
 file = {"scprp",}
 module_file = {
-   Character = "scprp/schema/meta/sh_character.lua",
-   Player = "scprp/schema/meta/sh_player.lua",
+    Character = "scprp/schema/meta/sh_character.lua",
+    Player = "scprp/schema/meta/sh_player.lua",
 }
 
 dir = "docs/html"
@@ -22,9 +22,8 @@ no_viewed_topic_at_top = true -- don't put the currently viewed topic at the top
 use_new_templates = true -- new templating system
 pretty_urls = true -- avoid showing .html in urls
 pretty_topic_names = true -- strips extension from manual filenames, this does not check filename collisions
-
 kind_names = {
-   module = "Libraries",
+    module = "Libraries",
 }
 
 custom_tags = {
@@ -36,34 +35,36 @@ custom_tags = {
         "internal",
         hidden = true
     },
-    {
-        "group",
-        hidden = true
-    },
 }
 
 custom_display_name_handler = function(item, default_handler)
     if item.type == "function" and item.module then
-        if item.module.type == "meta" or item.module.type == "modmeta" then
-            if item.module.group == "Character" then
+        if item.module.type == "meta" then
+            return item.module.mod_name .. ":" .. default_handler(item)
+        elseif item.module.type == "modmeta" then
+            local group_parts = item.module.mod_name:match("^(.-)_(.-)$")
+            if group_parts then group_name = group_parts[2] end
+            if group_name == "Character" then
                 return "characterMeta:" .. default_handler(item)
-            elseif item.module.group == "Entity" then
+            elseif group_name == "Entity" then
                 return "entityMeta:" .. default_handler(item)
-            elseif item.module.group == "Item" then
+            elseif group_name == "Item" then
                 return "itemMeta:" .. default_handler(item)
-            elseif item.module.group == "Player" then
+            elseif group_name == "Player" then
                 return "playerMeta:" .. default_handler(item)
-            elseif item.module.group == "Inventory" then
+            elseif group_name == "Inventory" then
                 return "inventoryMeta:" .. default_handler(item)
+            else
+                return "meta:" .. default_handler(item)
             end
-            return "meta:" .. default_handler(item)
         elseif item.module.type == "hooks" then
             if item.module.mod_name == "Class" then
                 return "CLASS:" .. default_handler(item)
             elseif item.module.mod_name == "Faction" then
                 return "FACTION:" .. default_handler(item)
+            else
+                return "MODULE:" .. default_handler(item)
             end
-            return "MODULE:" .. default_handler(item)
         end
     end
     return default_handler(item)
