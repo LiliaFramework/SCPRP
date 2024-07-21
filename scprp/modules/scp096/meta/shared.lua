@@ -1,4 +1,6 @@
-﻿-- @modmeta
+﻿-- @--- Meta Tables for SCP-096.
+-- @modmeta SCP-096
+
 local playerMeta = FindMetaTable("Player")
 
 function playerMeta:HuntedBySCP096()
