@@ -22,7 +22,7 @@ end
 
 if SERVER then
     --- Applies a speed modification to the player.
-    -- @number amount The multiplier for the walk and run speed.
+    -- @float amount The multiplier for the walk and run speed.
     -- @bool bool `true` to apply the speed modification, `false` to reset to default.
     -- @realm shared
     function playerMeta:ApplySpeed(amount, bool)
