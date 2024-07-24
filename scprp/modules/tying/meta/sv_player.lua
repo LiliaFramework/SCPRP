@@ -1,5 +1,5 @@
 ﻿--- Meta Tables for Tying.
--- @modmeta Tying
+-- @player Tying
 
 local playerMeta = FindMetaTable("Player")
 
