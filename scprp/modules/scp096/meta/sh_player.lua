@@ -1,5 +1,5 @@
 ﻿--- Meta Tables for SCP-096.
--- @player SCP096
+-- @metaplayer SCP096
 
 local playerMeta = FindMetaTable("Player")
 
