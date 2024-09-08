@@ -1,4 +1,4 @@
-﻿function MODULE:PlayerBindPress(client, bind)
+function MODULE:PlayerBindPress(client, bind)
     bind = bind:lower()
     if IsHandcuffed(client) and (string.find(bind, "+speed") or string.find(bind, "gm_showhelp") or string.find(bind, "+jump") or string.find(bind, "+walk") or string.find(bind, "+use")) then return true end
 end
@@ -99,17 +99,44 @@ function HandcuffPlayer(target)
     target:StartHandcuffAnim()
 end
 
+function MODULE:StartCommand(client, cmd)
+    if IsHandcuffed(client) then
+        cmd:RemoveKey(IN_SPEED)
+        cmd:RemoveKey(IN_JUMP)
+    end
+end
+
 function OnHandcuffRemove(target)
     target:setNetVar("restricted", false)
-    target:SetWalkSpeed(lia.config.WalkSpeed)
-    target:SetRunSpeed(lia.config.RunSpeed)
     hook.Run("ResetSubModuleCuffData", target)
     target:EndHandcuffAnim()
 end
 
 function MODULE:CanPlayerJoinClass(client)
-    if client:IsHandcuffed(client) then
-        client:notify("You cannot change classes when you are restrained!")
+    if IsHandcuffed(client) then
+        client:notifyLocalized("cuffCannotChangeClass")
         return false
+    end
+end
+
+function MODULE:KeyPress(client, key)
+    if IsHandcuffed(client) and key == IN_DUCK then
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_L_UpperArm"), Angle(29.4, 43, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_L_Forearm"), Angle(0.9, 85.7, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_L_Hand"), Angle(0, 0, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_R_Forearm"), Angle(0, 80.143, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_R_Hand"), Angle(0, 0, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_R_UpperArm"), Angle(-39.3, 85.4, -30.4))
+    end
+end
+
+function MODULE:KeyRelease(client, key)
+    if IsHandcuffed(client) and key == IN_DUCK then
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_L_UpperArm"), Angle(20, 8.8, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_L_Forearm"), Angle(15, 0, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_L_Hand"), Angle(0, 0, 75))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_R_Forearm"), Angle(-15, 0, 0))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_R_Hand"), Angle(0, 0, -75))
+        client:ManipulateBoneAngles(client:LookupBone("ValveBiped.Bip01_R_UpperArm"), Angle(-20, 16.6, 0))
     end
 end
