@@ -29,7 +29,9 @@ This is meant to override Lilia's configuration options.
 -- @field MaxChatLength Sets the maximum length of chat messages | **integer**
 -- @field CurrencySymbol Specifies the currency symbol used in the game | **string**
 -- @field SpawnTime Time to respawn after death | **integer**
--- @field MaxAttributes Maximum number of attributes a character can have | **integer**
+-- @field MaxAttributePoints Maximum number of points that can be allocated across an attribute | **integer**
+-- @field MaxStartingAttributes Maximum value of each attribute at character creation | **integer**
+-- @field StartingAttributePoints Total number of points available for starting attribute allocation | **integer**
 -- @field EquipDelay Time delay between equipping items | **integer**
 -- @field DropDelay Time delay between dropping items | **integer**
 -- @field TakeDelay Time delay between taking items | **integer**
@@ -66,7 +68,9 @@ lia.config.DefaultMoney = 0
 lia.config.MaxChatLength = 256
 lia.config.CurrencySymbol = "$"
 lia.config.SpawnTime = 5
-lia.config.MaxAttributes = 30
+lia.config.MaxAttributePoints = 30
+lia.config.MaxStartingAttributes = 0
+lia.config.StartingAttributePoints = 30
 lia.config.EquipDelay = 2
 lia.config.UnequipDelay = 2
 lia.config.DropDelay = 2
