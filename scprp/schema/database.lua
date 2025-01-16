@@ -1,4 +1,4 @@
-return {
+﻿return {
     -- Database module to use. Available options:
     -- "mysqloo" for MySQL databases
     -- "sqlite" for SQLite databases

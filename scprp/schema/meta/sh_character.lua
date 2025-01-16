@@ -1,5 +1,4 @@
 ﻿local characterMeta = lia.meta.character
-
 --- Retrieves the clearance level of the character.
 -- @realm shared
 -- @treturn int The clearance level of the character.

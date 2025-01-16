@@ -1,6 +1,5 @@
 ﻿--- Attributes of the SCP-682 class.
 -- @classes SCP-682
-
 --- A list of the current fields in the class.
 -- @realm shared
 -- @table Configurations
@@ -23,7 +22,6 @@ CLASS.walkSpeed = 200
 CLASS.runSpeed = 300
 CLASS.bloodcolor = DONT_BLEED
 CLASS.faction = FACTION_SCP
-
 function CLASS:OnSet(client)
     client:Spawn()
     local character = client:getChar()

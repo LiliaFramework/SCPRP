@@ -1,6 +1,5 @@
 ﻿--- Attributes of the SCP-096 class.
 -- @classes SCP-096
-
 --- A list of the current fields in the class.
 -- @realm shared
 -- @table Configurations

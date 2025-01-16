@@ -1,6 +1,5 @@
 ﻿--- Attributes of the Foundation Researcher faction.
 -- @factions FResearch
-
 --- A list of the current fields in the faction.
 -- @realm shared
 -- @table Configurations

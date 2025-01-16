@@ -1,8 +1,6 @@
 ﻿--- Meta Tables for SCP-096.
 -- @playermeta SCP096
-
 local playerMeta = FindMetaTable("Player")
-
 --- Checks if the player has been spotted by SCP-096.
 -- @return bool `true` if spotted, `false` otherwise.
 -- @realm shared

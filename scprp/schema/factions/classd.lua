@@ -1,6 +1,5 @@
 ﻿--- Attributes of the Class-D faction.
 -- @factions ClassD
-
 --- A list of the current fields in the faction.
 -- @realm shared
 -- @table Configurations

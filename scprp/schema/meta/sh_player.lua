@@ -1,5 +1,4 @@
 ﻿local playerMeta = FindMetaTable("Player")
-
 --- Checks if the player has the specified clearance level or higher.
 -- @realm shared
 -- @int level The clearance level to check against.

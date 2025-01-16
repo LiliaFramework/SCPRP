@@ -4,7 +4,6 @@ Lilia's configuration options.
 This is meant to override Lilia's configuration options.
 ]]
 -- @configuration Lilia
-
 --- A list of available configuration options for use within the game.
 -- Each option is represented by a field with a specific data type and functionality.
 -- @realm shared
