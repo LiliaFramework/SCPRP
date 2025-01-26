@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 
 
@@ -15,6 +16,24 @@
 
 
 
+=======
+﻿--- Attributes of the SCP-096 class.
+-- @classes SCP-096
+--- A list of the current fields in the class.
+-- @realm shared
+-- @table Configurations
+-- @field name The name of the class | **string**
+-- @field desc The description of the class | **string**
+-- @field isDefault Whether the class is set as default | **boolean**
+-- @field model The model of the class | **string**
+-- @field health The health of the class | **integer**
+-- @field walkSpeed The walking speed of the class | **float**
+-- @field runSpeed The running speed of the class | **float**
+-- @field bloodcolor The blood color of the class | **integer**
+-- @field faction The faction of the class | **integer**
+-- @field weapons The weapons assigned to the class | **table**
+-- @field index The Unique ID of the class | **integer**
+>>>>>>> fa3e6fbb8815b716f99a2856212141398f3743e7
 CLASS.name = "SCP-096"
 CLASS.desc = "A emaciated, nude, pale-skinned, and anorexic humanoid."
 CLASS.isDefault = true
