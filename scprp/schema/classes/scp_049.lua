@@ -1,37 +1,3 @@
-<<<<<<< HEAD
-﻿
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-﻿--- Attributes of the SCP-049 class.
--- @classes SCP-049
---- A list of the current fields in the class.
--- @realm shared
--- @table Configurations
--- @field name The name of the class | **string**
--- @field desc The description of the class | **string**
--- @field isDefault Whether the class is set as default | **boolean**
--- @field model The model of the class | **string**
--- @field health The health of the class | **integer**
--- @field walkSpeed The walking speed of the class | **float**
--- @field runSpeed The running speed of the class | **float**
--- @field bloodcolor The blood color of the class | **integer**
--- @field faction The faction of the class | **integer**
--- @field index The Unique ID of the class | **integer**
->>>>>>> fa3e6fbb8815b716f99a2856212141398f3743e7
 CLASS.name = "SCP-049"
 CLASS.desc = "A humanoid figure that resembles a 15-16th century European Plague Doctor, with a black robe and a white-beaked mask stands before you."
 CLASS.isDefault = true
