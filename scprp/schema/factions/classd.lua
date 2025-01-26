@@ -1,4 +1,4 @@
-FACTION.name = "Class-D Personnel"
+﻿FACTION.name = "Class-D Personnel"
 FACTION.desc = "Inmates held in Sector D of the facility. They are used for testing and are expendable."
 FACTION.color = Color(255, 140, 0)
 FACTION.isDefault = true

@@ -1,4 +1,4 @@
-CLASS.name = "SCP-049"
+﻿CLASS.name = "SCP-049"
 CLASS.desc = "A humanoid figure that resembles a 15-16th century European Plague Doctor, with a black robe and a white-beaked mask stands before you."
 CLASS.isDefault = true
 CLASS.model = ""
