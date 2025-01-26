@@ -1,18 +1,18 @@
-﻿--- Meta Tables for SCP-096.
--- @playermeta SCP096
+﻿
+
 
 local playerMeta = FindMetaTable("Player")
 
---- Checks if the player has been spotted by SCP-096.
--- @return bool `true` if spotted, `false` otherwise.
--- @realm shared
+
+
+
 function playerMeta:HuntedBySCP096()
     return self:GetNWBool("spotted_096", false)
 end
 
---- Checks if the player is SCP-096.
--- @return bool `true` if the player is SCP-096, `false` otherwise.
--- @realm shared
+
+
+
 function playerMeta:isSCP096()
     local weapon = self:GetActiveWeapon()
     if not IsValid(weapon) then return false end

@@ -1,15 +1,15 @@
-﻿--- Attributes of the Class-D faction.
--- @factions ClassD
+﻿
 
---- A list of the current fields in the faction.
--- @realm shared
--- @table Configurations
--- @field name The name of the faction | **string**
--- @field desc The description of the faction | **string**
--- @field color The color representing the faction | **Color**
--- @field isDefault Whether the faction is set as default | **boolean**
--- @field models The models that the faction can use | **table**
--- @field index The Unique ID of the faction | **integer**
+
+
+
+
+
+
+
+
+
+
 FACTION.name = "Class-D Personnel"
 FACTION.desc = "Inmates held in Sector D of the facility. They are used for testing and are expendable."
 FACTION.color = Color(255, 140, 0)
@@ -21,4 +21,3 @@ function FACTION:OnCharCreated(_, character)
 end
 
 FACTION_CLASSD = FACTION.index
--- Workshop ID for pack "2948577566"
