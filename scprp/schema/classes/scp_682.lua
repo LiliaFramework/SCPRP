@@ -1,4 +1,4 @@
-CLASS.name = "SCP-682"
+﻿CLASS.name = "SCP-682"
 CLASS.desc = "A large, vaguely reptile-like creature of unknown origin. It appears to be extremely intelligent."
 CLASS.isDefault = true
 CLASS.model = ""

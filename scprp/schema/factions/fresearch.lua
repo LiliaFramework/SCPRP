@@ -1,4 +1,4 @@
-FACTION.name = "Foundation Researcher Department"
+﻿FACTION.name = "Foundation Researcher Department"
 FACTION.desc = "Membsers of the SCP Foundation Research Department. They are tasked with researching and understanding the anomalous objects contained within the facility."
 FACTION.color = Color(51, 146, 43)
 FACTION.isDefault = false

@@ -1,4 +1,4 @@
-CLASS.name = "SCP-096"
+﻿CLASS.name = "SCP-096"
 CLASS.desc = "A emaciated, nude, pale-skinned, and anorexic humanoid."
 CLASS.isDefault = true
 CLASS.model = ""

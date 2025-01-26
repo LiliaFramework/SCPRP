@@ -1,4 +1,4 @@
-FACTION.name = "Foundation Recruits"
+﻿FACTION.name = "Foundation Recruits"
 FACTION.desc = "New recruits to the SCP Foundation. They are awaiting training and are not yet assigned to a specific department."
 FACTION.color = Color(65, 65, 65)
 FACTION.isDefault = true

@@ -1,4 +1,4 @@
-FACTION.name = "SCP's"
+﻿FACTION.name = "SCP's"
 FACTION.desc = "Select your SCP."
 FACTION.color = Color(68, 68, 68)
 FACTION.isDefault = true
