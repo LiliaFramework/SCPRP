@@ -1,3 +1,3 @@
 ﻿SCHEMA.name = "SCPRP"
-SCHEMA.author = "Sample Schema Author"
+SCHEMA.author = "LiliaFramework"
 SCHEMA.desc = "A SCPRP Schema"
