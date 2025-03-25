@@ -1,5 +1,7 @@
 name: CI
-on: [push, pull_request]
+
+on:
+  push:
 
 permissions:
   actions: write
@@ -55,6 +57,7 @@ jobs:
 
   release:
     needs: linter
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -68,7 +71,7 @@ jobs:
           script: |
             const tag = 'release';
             try {
-              const release = await github.rest.repos.getReleaseByTag({
+              const rel = await github.rest.repos.getReleaseByTag({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 tag
@@ -76,7 +79,7 @@ jobs:
               await github.rest.repos.deleteRelease({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                release_id: release.data.id
+                release_id: rel.data.id
               });
               await github.rest.git.deleteRef({
                 owner: context.repo.owner,
