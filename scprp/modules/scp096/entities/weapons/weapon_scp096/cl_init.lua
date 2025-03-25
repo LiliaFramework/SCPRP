@@ -34,9 +34,9 @@ function SWEP:GetViewModelPosition(pos, ang)
     local multx
     local active = self:GetActive()
     if active then
-        multx = (self.LastMultiX == 1 and 1) or Lerp((sys_time - self.LastSysTime) * 15, self.LastMultiX, 1)
+        multx = self.LastMultiX == 1 and 1 or Lerp((sys_time - self.LastSysTime) * 15, self.LastMultiX, 1)
     else
-        multx = (self.LastMultiX == 0 and 0) or Lerp((sys_time - self.LastSysTime) * 15, self.LastMultiX, 0)
+        multx = self.LastMultiX == 0 and 0 or Lerp((sys_time - self.LastSysTime) * 15, self.LastMultiX, 0)
     end
 
     self.LastSysTime = sys_time

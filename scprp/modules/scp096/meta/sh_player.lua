@@ -11,8 +11,8 @@ end
 
 if SERVER then
     function playerMeta:ApplySpeed(amount, bool)
-        self:SetWalkSpeed((bool and lia.config.WalkSpeed * tonumber(amount)) or lia.config.WalkSpeed)
-        self:SetRunSpeed((bool and lia.config.RunSpeed * tonumber(amount)) or lia.config.RunSpeed)
+        self:SetWalkSpeed(bool and lia.config.WalkSpeed * tonumber(amount) or lia.config.WalkSpeed)
+        self:SetRunSpeed(bool and lia.config.RunSpeed * tonumber(amount) or lia.config.RunSpeed)
     end
 
     function playerMeta:SCP096ApplySpawnSpeed()
