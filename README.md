@@ -26,7 +26,7 @@ Follow the [installation tutorial](https://liliaframework.github.io/information/
 
 ## 📦 Workshop Content
 
-Grab our essential assets from the [workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3451663506).
+Grab the essential assets from the [workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3451663506).
 
 ## 📚 Documentation
 
@@ -50,9 +50,11 @@ We welcome pull requests and feedback:
 
 Please read our [Code of Conduct](Code_Of_Conduct.md) before contributing.
 
-## 🎓 License
+## 🎓 Learning & Adaptation
 
-This project is licensed under the [GNU General Public License v3.0](License).
+All [**Lilia**](https://github.com/LiliaFramework/Lilia) content is open source under the **GNU General Public License v3.0**. See the [License](./License) file for details. You are free to study, modify and adapt it for your own server. Commercial resale is discouraged, but educational use is encouraged.
 
-Author: Samael
+Official modules for Lilia can be found here: [https://github.com/LiliaFramework/Modules](https://github.com/LiliaFramework/Modules)
+
+Participation in this project is subject to the [Code of Conduct](./Code_Of_Conduct.md).
 
