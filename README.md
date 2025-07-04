@@ -1,6 +1,6 @@
 <p align="center">
   <b>The official SCPRP schema for the Lilia framework.</b><br/>
-  Extend your server with new mechanics and features.
+  Build your SCP experience with custom mechanics and factions.
 </p>
 
 <p align="center">
