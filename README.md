@@ -1,8 +1,8 @@
-<h1 align="center">Lilia – SCPRP Schema</h1>
-
 <p align="center">
-  <img src="https://i.imgur.com/xddGdsS.png" alt="Lilia Icon" width="256" height="256">
+  <img src="https://github.com/LiliaFramework/Lilia/blob/main/logo.png?raw=true" alt="Lilia Logo" width="200" />
 </p>
+
+<h1 align="center">Lilia – SCPRP Schema</h1>
 
 **SCPRP** is a schema built for the [Lilia Framework](https://github.com/LiliaFramework/Lilia). It brings the world of the SCP Foundation to your Garry's Mod server through custom classes, factions and mechanics.
 
@@ -28,6 +28,11 @@ Have questions or ideas? Join our community on [Discord](https://discord.gg/52MS
 
 ## Modules
 Find more modules for your server on the [Lilia Modules page](https://liliaframework.github.io/Modules/).
+
+---
+
+## Documentation
+Full documentation for Lilia and this schema can be found on the [Lilia website](https://liliaframework.github.io/).
 
 ---
 
