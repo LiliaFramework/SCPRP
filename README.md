@@ -1,12 +1,12 @@
 <p align="center">
-  <strong>Official repository for Lilia, an advanced roleplay framework for Garry’s Mod.</strong><br/>
-  The perfect foundation for your dream server.<br/><br/>
+  <strong>SCPRP &mdash; a sample SCP roleplay schema built on the Lilia framework.</strong><br/>
+  A starting point for creating your own SCP server.<br/><br/>
   <img src="https://github.com/LiliaFramework/Lilia/blob/main/logo.png?raw=true" alt="Lilia Logo" width="200" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/LiliaFramework/Lilia/stargazers">
-    <img src="https://img.shields.io/github/stars/LiliaFramework/Lilia?style=social" alt="GitHub Stars" />
+  <a href="https://github.com/LiliaFramework/SCPRP/stargazers">
+    <img src="https://img.shields.io/github/stars/LiliaFramework/SCPRP?style=social" alt="GitHub Stars" />
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License GPL v3" />
@@ -22,61 +22,52 @@
   </a>
 </p>
 
-<h1 align="center">Lilia Framework</h1>
+<h1 align="center">SCPRP</h1>
 
 <h2 align="center">🚀 Getting Started</h2>
 
 <p align="center">
-  Follow our step-by-step <a href="https://liliaframework.github.io/information/installing_the_gamemode/">installation tutorial</a> to set up Lilia on your server.
+  Follow the <a href="https://liliaframework.github.io/information/installing_the_gamemode/">Lilia installation guide</a> and then add this schema to your server.
 </p>
 
 <h2 align="center">✨ Core Features</h2>
 
 <div align="center">
 
-  **Grid Inventory**  
-  Includes containers, vendors and item weight handling.
+  **Foundation Factions**
+  Recruits, researchers and security departments.
 
-  **Recognition System**  
-  Manage characters and factions with ease.
+  **Playable SCPs**
+  Classes for SCP-049, SCP-096, SCP-682 and more.
 
-  **Custom Menus**  
-  Scoreboard, F1 menu and radial weapon selector.
+  **Custom Attributes**
+  Traits such as medical knowledge and pestilence.
 
-  **Administration Utilities**  
-  Logging, ticket management and warnings.
+  **Clearance System**
+  Functions to handle security levels for characters.
 
-  **Performance Libraries**  
-  Optimized database access, networking and caching.
+  **Mind Chat**
+  Communicate privately with the `/mind` command.
 
-  **Door System**  
-  Ownable doors with key-lock functionality.
+  **Visual Effects**
+  Special screen effects for certain SCP classes.
 
-  **Third-Person Camera**  
-  Toggleable, with adjustable view settings.
-
-  **Team & Spawn Management**  
-  Flexible faction and class configurations.
-
-  **Interaction Menu**  
-  Quick-access common actions.
-
-  **Modular Extensions**  
-  Hot-reloadable modules for seamless extension.
+  **Module Support**
+  Extend gameplay with modular SCP mechanics.
 
 </div>
 
 <h2 align="center">📚 Documentation</h2>
 
 <p align="center">
-  Explore the complete wiki for in-depth guides on configuring and extending Lilia:<br/>
+  Explore the Lilia wiki for in-depth guides on configuring and extending the framework:<br/>
   <a href="https://liliaframework.github.io">https://liliaframework.github.io</a>
 </p>
 
 <h2 align="center">📦 Workshop Content</h2>
 
 <p align="center">
-  Subscribe to our essential <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2959728255">Steam Workshop collection</a> for the assets you’ll need to run Lilia optimally.
+  Subscribe to our essential <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2959728255">Steam Workshop collection</a> for the assets you’ll need.
 </p>
 
 <h2 align="center">💬 Community Support</h2>
@@ -89,16 +80,16 @@
 <h2 align="center">💡 Contributing</h2>
 
 <p align="center">
-  We welcome pull requests and wiki improvements. To submit one, follow the following steps:
+  We welcome pull requests and wiki improvements. To submit one, follow the steps below:
 </p>
 
 <div align="center">
 
-  Fork the repo  
+  Fork the repo
 
-  Create a feature branch  
+  Create a feature branch
 
-  Submit a pull request  
+  Submit a pull request
 
 </div>
 
