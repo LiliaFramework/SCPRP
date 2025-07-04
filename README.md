@@ -1,5 +1,5 @@
 <p align="center">
-  <b>The official SCPRP schema for the Lilia framework.</b><br/>
+  <b>Official repository for the SCPRP schema built on the Lilia framework.</b><br/>
   Build your SCP experience with custom mechanics and factions.
 </p>
 
@@ -9,49 +9,50 @@
 
 <h1 align="center">Lilia – SCPRP Schema</h1>
 
-**SCPRP** is a schema built for the [Lilia Framework](https://github.com/LiliaFramework/Lilia). It brings the world of the SCP Foundation to your Garry's Mod server through custom classes, factions and mechanics.
+Welcome to **SCPRP**, an SCP-themed roleplay schema for [Lilia](https://github.com/LiliaFramework/Lilia). It brings the world of the SCP Foundation to your Garry's Mod server through custom classes, factions and mechanics.
 
----
+## 🚀 Getting Started
 
-## Features
-- Seamless integration with the Lilia roleplay framework
-- SCP themed factions and classes out of the box
-- Expandable through additional modules such as SCP-049 and SCP-096
-- Fully open source and easy to customise
+Follow the [installation tutorial](https://liliaframework.github.io/information/installing_the_gamemode/) to set up Lilia and this schema on your server.
 
----
+## ✨ Features
 
-## Installation
-Follow the [official installation guide](https://liliaframework.github.io/information/installing_the_gamemode/) to set up Lilia and this schema.
+- **Seamless Lilia Integration** for plug-and-play setup
+- **SCP Factions & Classes** ready to use out of the box
+- **Expandable Modules** such as SCP-049 and SCP-096
+- **Open Source** and easy to customise
 
----
+> Additional modules are available on the [Lilia Modules page](https://liliaframework.github.io/Modules/).
 
-## Community & Support
-Have questions or ideas? Join our community on [Discord](https://discord.gg/52MSnh39vw).
+## 📦 Workshop Content
 
----
+Grab our essential assets from the [workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3451663506).
 
-## Modules
-Find more modules for your server on the [Lilia Modules page](https://liliaframework.github.io/Modules/).
+## 📚 Documentation
 
----
+Browse the full wiki for configuration and extension guides:
 
-## Documentation
-Full documentation for Lilia and this schema can be found on the [Lilia website](https://liliaframework.github.io/).
+https://liliaframework.github.io
 
----
+## 💬 Community Support
 
-## Contributing
-We welcome pull requests and feedback.
-1. Fork the repository
+Join our community Discord for help and discussion:
+
+https://discord.gg/52MSnh39vw
+
+## 💡 Contributing
+
+We welcome pull requests and feedback:
+
+1. Fork the repo
 2. Create a feature branch
 3. Submit a pull request
 
 Please read our [Code of Conduct](Code_Of_Conduct.md) before contributing.
 
----
+## 🎓 License
 
-## License
 This project is licensed under the [GNU General Public License v3.0](License).
 
 Author: Samael
+
