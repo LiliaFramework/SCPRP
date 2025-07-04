@@ -1,35 +1,47 @@
 <h1 align="center">Lilia – SCPRP Schema</h1>
 
-Welcome to the **SCPRP Schema** for Lilia—a purpose-built extension that brings the eerie halls of the SCP Foundation to your Garry’s Mod RP server. With seamless integration and powerful features, your players will experience containment, research, and anomalies like never before.
+<p align="center">
+  <img src="https://i.imgur.com/xddGdsS.png" alt="Lilia Icon" width="256" height="256">
+</p>
+
+**SCPRP** is a schema built for the [Lilia Framework](https://github.com/LiliaFramework/Lilia). It brings the world of the SCP Foundation to your Garry's Mod server through custom classes, factions and mechanics.
 
 ---
 
-## 🚀 Installation
-
-For a step-by-step guide, see our [installation tutorial](https://liliaframework.github.io/information/installing_the_gamemode/).
-
----
-
-## 🤝 Community & Support
-
-Need help or want to suggest enhancements? Join us on Discord:  
-[Join our Discord](https://discord.gg/52MSnh39vw)
+## Features
+- Seamless integration with the Lilia roleplay framework
+- SCP themed factions and classes out of the box
+- Expandable through additional modules such as SCP-049 and SCP-096
+- Fully open source and easy to customise
 
 ---
 
-## 📚 Additional Modules
-
-Expand your SCPRP experience with official Lilia modules:  
-[Browse Modules](https://liliaframework.github.io/Modules/)
+## Installation
+Follow the [official installation guide](https://liliaframework.github.io/information/installing_the_gamemode/) to set up Lilia and this schema.
 
 ---
 
-## 💡 Contributing
+## Community & Support
+Have questions or ideas? Join our community on [Discord](https://discord.gg/52MSnh39vw).
 
-We welcome code contributions, documentation improvements, and feedback:
+---
 
-1. Fork the repository  
-2. Create a feature branch  
-3. Submit a pull request  
+## Modules
+Find more modules for your server on the [Lilia Modules page](https://liliaframework.github.io/Modules/).
 
-Your contributions help build a richer, more stable RP experience!
+---
+
+## Contributing
+We welcome pull requests and feedback.
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+Please read our [Code of Conduct](Code_Of_Conduct.md) before contributing.
+
+---
+
+## License
+This project is licensed under the [GNU General Public License v3.0](License).
+
+Author: Samael
