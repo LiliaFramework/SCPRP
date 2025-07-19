@@ -1,7 +1,7 @@
 <p align="center">
   <strong>SCPRP &mdash; a sample SCP roleplay schema built on the Lilia framework.</strong><br/>
   A starting point for creating your own SCP server.<br/><br/>
-  <img src="https://github.com/LiliaFramework/Lilia/blob/main/logo.png?raw=true" alt="Lilia Logo" width="200" />
+  <img src="https://github.com/LiliaFramework/liaIcons/blob/main/lilia.png?raw=true" alt="Lilia Logo" width="200" />
 </p>
 
 <p align="center">
